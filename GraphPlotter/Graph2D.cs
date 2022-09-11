@@ -16,9 +16,9 @@ namespace GraphPlotter
         public List<Point2D> Points { get; private set; }
         private Func<double, double> func;
 
-        public Graph2D(double BeginX, double endX, double stepSize, MathFunction mathFunction)
+        public Graph2D(double beginX, double endX, double stepSize, MathFunction mathFunction)
         {
-            this.BeginX = BeginX;
+            BeginX = beginX;
             EndX = endX;
             StepSize = stepSize;
             func = mathFunction.GetFunc();
