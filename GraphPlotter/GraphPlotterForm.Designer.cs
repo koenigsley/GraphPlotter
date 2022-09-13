@@ -55,10 +55,13 @@
             // 
             // graphPictureBox
             // 
+            this.graphPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.graphPictureBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.graphPictureBox.Location = new System.Drawing.Point(12, 12);
             this.graphPictureBox.Name = "graphPictureBox";
-            this.graphPictureBox.Size = new System.Drawing.Size(950, 552);
+            this.graphPictureBox.Size = new System.Drawing.Size(950, 542);
             this.graphPictureBox.TabIndex = 1;
             this.graphPictureBox.TabStop = false;
             // 
@@ -72,13 +75,14 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.functionNamesComboBox);
             this.flowLayoutPanel1.Controls.Add(this.plotGraphButton);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(659, 570);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(659, 572);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(303, 147);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(303, 145);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // label1
@@ -115,13 +119,14 @@
             // 
             // flowLayoutPanel2
             // 
+            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel2.Controls.Add(this.beginXLabel);
             this.flowLayoutPanel2.Controls.Add(this.beginXTextBox);
             this.flowLayoutPanel2.Controls.Add(this.endXLabel);
             this.flowLayoutPanel2.Controls.Add(this.endXTextBox);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(12, 570);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(12, 572);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(318, 147);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(318, 145);
             this.flowLayoutPanel2.TabIndex = 6;
             // 
             // endXLabel
@@ -133,7 +138,7 @@
             this.endXLabel.TabIndex = 6;
             this.endXLabel.Text = "Правая граница диапазона:";
             // 
-            // Form1
+            // GraphPlotterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -144,7 +149,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.MinimumSize = new System.Drawing.Size(680, 620);
+            this.Name = "GraphPlotterForm";
             this.Text = "GraphPlotter";
             ((System.ComponentModel.ISupportInitialize)(this.graphPictureBox)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
